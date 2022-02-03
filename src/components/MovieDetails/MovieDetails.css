@@ -1,0 +1,83 @@
+.wrapper{
+    color:white;
+}
+.movie-details{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px 40px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movie-entity{
+    display:flex;
+    border-right: 1px solid white;
+}
+.movie-poster img{
+    display: flex;
+}
+.movie-description{
+    text-align: left;
+    max-width: 750px;
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.details p {
+    padding-left: 10px;
+    margin:0;
+    text-align: left;
+
+}
+.duration p span{
+    color: #76a2e1;
+}
+.details p span {
+    color: #76a2e1;
+}
+.details h4 span {
+    color: #76a2e1;
+}
+.movie-entityAbout{
+    padding:0 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.movie-title h4{
+    padding:0 0 20px 0;
+    margin:0;
+    font-size: 2rem;
+}
+.movie-descriptionPlot p{
+    padding-top:10px;
+}
+.imdb-rating p{
+    position: relative;
+}
+.imdb-rating p span{
+    color:gold;
+}
+
+@media screen and (max-width: 900px) {
+    .movie-details {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .movie-entity {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .movie-entity {
+        display: flex;
+        flex-direction: column;
+        border-right: none;
+    }
+    .movie-details {
+        flex-direction: column;
+    }
+}
