@@ -1,4 +1,4 @@
-Virtual Cinema - Simple application which allows user to search movies by keyword. Each movie has detailed information and plot description.
+Virtual Cinema - Simple application which allows you to search movies by keyword. Each movie has detailed information and plot description.
 
 User Guide:
     1: Download/Clone Repository
