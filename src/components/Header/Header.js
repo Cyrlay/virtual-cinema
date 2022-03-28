@@ -23,7 +23,7 @@ const Header = () => {
         setTerm('')
     }
     return (
-        <div className={'header'}>
+        <div className={'header border-bottom'}>
             <div className="navigation">
                 <div className={'back-buttons'}>
                     <Link to="/">
@@ -33,13 +33,14 @@ const Header = () => {
                 </div>
                 <Nav>
                     <NavMenu id={showLinks ? 'mobile-nav' : ''}>
-                        <NavLink to='/movies'>
-                            Movies
-                        </NavLink>
-                        <NavLink to='/series'>
-                            Series
-                        </NavLink>
-
+                        <div className={'header-categories'}>
+                            <NavLink to='/movies'>
+                                Movies
+                            </NavLink>
+                            <NavLink to='/series'>
+                                Series
+                            </NavLink>
+                        </div>
                         <div className="search-box">
                             <form onSubmit={submitHandler}>
                                 <input

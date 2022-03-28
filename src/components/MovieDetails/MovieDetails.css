@@ -1,7 +1,14 @@
-.wrapper{
-    color:white;
+.details-page {
+    background-color: #3b3636;
+    width: 100%;
+    min-height: 777px;
 }
-.movie-details{
+
+.wrapper {
+    color: white;
+}
+
+.movie-details {
     display: flex;
     justify-content: space-evenly;
     padding: 150px 40px;
@@ -9,54 +16,66 @@
     margin-left: auto;
     margin-right: auto;
 }
-.movie-entity{
-    display:flex;
+
+.movie-entity {
+    display: flex;
     border-right: 1px solid white;
 }
-.movie-poster img{
+
+.movie-poster img {
     display: flex;
 }
-.movie-description{
+
+.movie-description {
     text-align: left;
     max-width: 750px;
     padding: 0 0 0 20px;
     display: flex;
     flex-direction: column;
 }
+
 .details p {
     padding-left: 10px;
-    margin:0;
+    margin: 0;
     text-align: left;
 
 }
-.duration p span{
+
+.duration p span {
     color: #76a2e1;
 }
+
 .details p span {
     color: #76a2e1;
 }
+
 .details h4 span {
     color: #76a2e1;
 }
-.movie-entityAbout{
-    padding:0 20px 20px 20px;
+
+.movie-entityAbout {
+    padding: 0 20px 20px 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.movie-title h4{
-    padding:0 0 20px 0;
-    margin:0;
+
+.movie-title h4 {
+    padding: 0 0 20px 0;
+    margin: 0;
     font-size: 2rem;
 }
-.movie-descriptionPlot p{
-    padding-top:10px;
+
+.movie-descriptionPlot p {
+    padding-top: 10px;
 }
-.imdb-rating p{
+
+.imdb-rating p {
     position: relative;
 }
-.imdb-rating p span{
-    color:gold;
+
+.imdb-rating p span {
+    color: gold;
 }
 
 @media screen and (max-width: 900px) {
@@ -77,6 +96,7 @@
         flex-direction: column;
         border-right: none;
     }
+
     .movie-details {
         flex-direction: column;
     }

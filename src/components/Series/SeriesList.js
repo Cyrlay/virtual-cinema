@@ -16,16 +16,16 @@ const SeriesList = () => {
         })
         : <div className={'error'}><h1>{shows.Error}</h1></div>
     return (
-    Object.keys(shows).length === 0 ? (<PageLoader/>) : (
-        <div className={'wrapper'}>
-            <div className={'show-list'}>
-                <h2>Shows</h2>
-                <div className={'show-container'}>
-                    {renderShows}
+        Object.keys(shows).length === 0 ? (<PageLoader/>) : (
+            <div className={'wrapper'}>
+                <div className={'show-list'}>
+                    <h2>Shows</h2>
+                    <div className={'show-container'}>
+                        {renderShows}
+                    </div>
                 </div>
             </div>
-        </div>
-    ))
+        ))
 }
 
 export default SeriesList

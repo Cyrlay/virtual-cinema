@@ -19,14 +19,14 @@ const MovieList = () => {
 
     return (
         Object.keys(movies).length === 0 ? (<PageLoader/>) : (
+            <div className={'movie-list'}>
                 <div className={'wrapper'}>
-                    <div className={'movie-list'}>
-                        <h2>Movies</h2>
-                        <div className={'movie-container'}>
-                            {renderMovies}
-                        </div>
+                    <h2>Movies</h2>
+                    <div className={'movie-container'}>
+                        {renderMovies}
                     </div>
                 </div>
+            </div>
         ))
 }
 

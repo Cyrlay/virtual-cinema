@@ -1,4 +1,4 @@
-.footer{
+.footer {
     background-color: #3b3636;
     font-family: 'Press Start 2P', cursive;
     font-size: 26px;
@@ -11,6 +11,7 @@
     height: 100px;
     text-align: center;
 }
-.credits{
-    color:white;
+
+.credits {
+    color: white;
 }

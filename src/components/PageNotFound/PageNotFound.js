@@ -1,12 +1,11 @@
 import React from 'react';
 import './PageNotFound.css'
-import PageLoader from "../PageLoader/PageLoader";
 
 const PageNotFound = () => {
     return (
         <div className={'page-not-found'}>
-            <h1>404 Page not found</h1>
-            <PageLoader/>
+            <h1>404</h1>
+            <h3 className={'text-white'}>Page not found</h3>
         </div>
     );
 };

@@ -10,8 +10,8 @@ const Home = () => {
     const movieText = 'Zombie'
     const seriesText = 'Zombie'
     useEffect(() => {
-    dispatch(fetchAsyncMovies(movieText))
-    dispatch(fetchAsyncShows(seriesText))
+        dispatch(fetchAsyncMovies(movieText))
+        dispatch(fetchAsyncShows(seriesText))
     }, [dispatch])
 
     return (

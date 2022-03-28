@@ -1,11 +1,16 @@
-.main-container{
+.page-not-found {
     background-color: #3b3636;
     min-height: 777px;
-    position: relative;
+    /*position: relative;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
 .page-not-found h1 {
     position: relative;
     z-index: 1000;
     font-size: 124px;
-    color:white;
+    color: white;
 }
